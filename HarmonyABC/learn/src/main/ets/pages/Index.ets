@@ -18,4 +18,26 @@ struct Hello {
           .margin({top: 20})
       }
     }
+
+  onPageShow(): void {
+    console.log('Life - onPageShow')
   }
+
+  onPageHide(): void {
+    console.log('Life - onPageHide')
+  }
+
+  onBackPress(): boolean | void {
+    console.log('Life - onBackPress')
+  }
+
+  // 组件被创建，build()函数调用之前
+  aboutToAppear(): void {
+    console.info('Life - aboutToAppear，组件被创建')
+  }
+
+  //
+  aboutToDisappear(): void {
+    console.info('Life - aboutToDisappear，组件被销毁')
+  }
+}

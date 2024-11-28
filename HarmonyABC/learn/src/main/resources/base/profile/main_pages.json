@@ -1,0 +1,6 @@
+{
+  "src": [
+    "componentDemo/UseComponent",
+    "componentDemo/builderDemo"
+  ]
+}
